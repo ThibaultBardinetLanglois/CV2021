@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8E95C1;
+}
+
+.bloc-de-page {
+    background-color: #fff;
+    position: relative;
+    width: 44%;
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 96%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 100px auto;
+}
+.svg1 {
+    
+    position: absolute;
+    top: -3%;
+    right: -1%;
+    z-index: 99;
+    height: 260px;
+    width: 115%;
+}
+
+.svg2 {
+    position: absolute;
+    bottom: -3%;
+    right: -1%;
+    z-index: 99;
+    height: 260px;
+    width: 105%;
+}
+
+.pages-block {
+    display: flex;
+}
+
+.title-page {
+    width: 90%;
+    margin: 2rem 0 0.8rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    object-fit: cover;
+    width: 18%;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 1.6rem;
+}
+
+.photo-thib {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+    object-position: -30px;
+    margin-right: 2.4rem;
+}
+
+.entete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-page h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    color: #F2845F; 
+}
+
+.age {
+    color: #F2845F;
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: -1rem 0 0rem 0;
+}
+
+.phrase-intro {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    width: 100%;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 1.6rem;
+    margin-bottom: 0.6rem;
+}
+
+/*====== LEFT ======*/
+/*color: 
+#F2845F
+*/
+
+.left {
+    margin: 0 2.4rem 0 1.6rem;
+    min-width: 35%;
+}
+
+.left h3 {
+    color: #F2845F;
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos div {
+    display: flex;
+}
+
+.icon {
+    margin: 0 1.6rem 1.6rem 0;
+    border-radius: 50%;
+    border: 1px solid #F2845F;
+}
+
+.fas {
+    font-size: 1.2rem;
+    padding: 1rem;
+    
+    color: #F2845F;
+}
+
+.fab {
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: #F2845F;
+}
+
+.tel p {
+    font-size: 1.3rem;
+    position: relative;
+    top: 12px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+.home p {
+    font-size: 1.3rem;
+    position: relative;
+    top: 4px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+.mail p {
+    font-size: 1.3rem;
+    position: relative;
+    top: 3px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+.linkedin p {
+    font-size: 1.3rem;
+    position: relative;
+    top: -5px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+.comp {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.comp-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.comp ul {
+    width: 100%;
+    list-style: none;
+}
+
+.comp li {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+    margin-bottom: 0rem;
+}
+
+.comp li strong {
+    font-weight: 500;
+}
+
+.fa-html5{
+    color: #E54C21;
+    font-size: 2.8rem;
+    margin-right: 1.6rem;
+}
+
+.fa-css3-alt {
+    color: #1572B6;
+    font-size: 2.8rem;
+    position: relative;
+    top: 0.1rem;
+    margin-right: 1.6rem;
+}
+
+.fa-js-square {
+    color: #FAC552;
+    font-size: 2.8rem;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0rem;
+}
+
+.fa-sass {
+    color: #CE679A;
+    font-size: 2.8rem;
+    margin-left: -0.4rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.1rem;
+    margin-right: 0.4rem;
+}
+
+.figma {
+    width: 20px;
+    position: relative;
+    top: 28px;
+    height: auto;
+    margin: -1.5rem 2.9rem 3.2rem 0.8rem;
+}
+
+.fa-php {
+    color: #787CB4;
+    font-size: 2.8rem;
+    position: relative;
+    top: 3px;
+    margin-left: -0.4rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.fa-symfony {
+    color: #2F434F;
+    font-size: 2.8rem;
+    margin-left: 0rem;
+    margin-right: 0.7rem;
+    margin-bottom: 1.2rem;
+}
+
+.mysql {
+    max-width: 40px;
+    width: auto;
+    margin-left: 0.8rem;
+    margin-right: 0.6rem;
+}
+
+.fa-ubuntu {
+    color: #DE4815;
+    font-size: 2.8rem;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+    margin-right: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.vsCode {
+    width: 25px;
+    height: auto;
+    position: relative;
+    top: 2px;
+    margin: 0rem 1.6rem 0rem 1.2rem;
+}
+
+.liVsCode {
+    margin-bottom: 2rem;
+}
+
+.fa-git-alt {
+    color: #F05030;
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    margin-right: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.fa-github {
+    color: #1B1F23;
+    font-size: 2.8rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
+}
+
+/*====== RIGHT ======*/
+.right {
+    margin-top: -1px;
+    margin-bottom: 10px;
+}
+
+/*====== PROJECTS-PART ======*/
+
+.projets {
+    margin-bottom: 1.6rem;
+}
+
+.github {
+    margin-top: -5rem;
+    margin-bottom: -0.6rem;
+}
+
+.projets h3 {
+    padding: 0 0 0.4rem 1.6rem;
+    margin-top: 0.8rem;
+    margin-bottom: -2rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F2845F;
+}
+
+.projets p {
+    padding: 0 0.8rem 0.2rem 1.6rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    margin-top: 0.4rem;
+}
+
+.projets p em {
+    color: #F2845F;
+    position: relative;
+    top: 2px;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.projets a {
+    text-decoration: none;
+    color: #000;
+}
+
+.group {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.solo {
+    margin-bottom: -0.4rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+/*====== FORMATION PART ======*/
+
+.formation {
+    margin-bottom: 1.8rem;
+}
+
+.formation h3 {
+    padding: 0 0 0.6rem 1.6rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F2845F;
+}
+
+
+.date-description {
+    display: flex;
+    padding: 0 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.date-description .date {
+    min-width: 25%;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.date-description .description {
+    padding: 0 1rem 0 0;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+/*====== EXPERIENCE-PART ======*/
+
+.experience h3 {
+    padding: 0 0 0.6rem 1.6rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F2845F;
+    margin-top: -0.8rem;
+}
+
+.experience em {
+    font-weight: 600;
+}
+
+.experience p {
+    padding: 0 1.6rem 0.4rem 1.6rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.experience .arrow {
+    color: #F2845F;
+    font-size: 2rem;
+}
+
+
+
+
+
+
